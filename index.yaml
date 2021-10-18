@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   api-firewall:
   - apiVersion: v1
-    created: "2021-10-18T11:36:37.767391+03:00"
+    created: "2021-10-18T11:49:43.156662+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 3ba73bf36a8c746f0ae7ce48398b1321a812553bb74940f882b6e9c11a23dab1
     engine: gotpl
@@ -23,7 +23,7 @@ entries:
     - api-firewall-0.6.5.tgz
     version: 0.6.5
   - apiVersion: v1
-    created: "2021-10-18T11:36:37.76697+03:00"
+    created: "2021-10-18T11:49:43.1556+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 37fb8fa1051f4402765f56609dc214e9379f0d361d0622363e53a6dddc443d82
     engine: gotpl
@@ -44,7 +44,7 @@ entries:
     - api-firewall-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v1
-    created: "2021-10-18T11:36:37.766537+03:00"
+    created: "2021-10-18T11:49:43.155142+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 7f84c24eea2d584b0d05d7f593c586637a55c27e55fce9b646fcec28ec52bf39
     engine: gotpl
@@ -64,4 +64,541 @@ entries:
     urls:
     - api-firewall-0.6.0.tgz
     version: 0.6.0
-generated: "2021-10-18T11:36:37.76595+03:00"
+  wallarm-ingress:
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.179321+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 0e61a3e2c41c46eabdc26aaf5fc94b3c73cb824600aef997b027e98fc37a974b
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.4.0-1.tgz
+    version: 3.4.0-1
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.178518+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 0c4dba388daf666e14df9e603bb11c6b7c6e6cde4d67c5cfd9bc520069603ee4
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.2.1-1.tgz
+    version: 3.2.1-1
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.177801+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 743024b85d8e8ea6cf1838662df43a65db279a7662da2d680a139bd33568f2ca
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.2.0-2.tgz
+    version: 3.2.0-2
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.176989+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 2839c84c4155c9a6dc0651c7e2e176583b9d899ae92eb70c1109b804a2e9bf79
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.2.0-1.tgz
+    version: 3.2.0-1
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.17625+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 9781a5de185db828649ba18a465781c9de60c802b643cef3b5b0f39fb5ce1193
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.0.0-3.tgz
+    version: 3.0.0-3
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.174743+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 7ad663e1602b5a04f5b513a1221ad569d25f34a419ba164d2f64fe845fbe2fc3
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.0.0-2.tgz
+    version: 3.0.0-2
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.17396+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: d584b6a5d48c798fe2b335a8677e3015a9067c86657673de37b947561725bf62
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-3.0.0-1.tgz
+    version: 3.0.0-1
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.173197+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 2d17959e38c9f4e16e4047fe6bf00778e4a93f7146df55532fecbe375a770506
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-8.tgz
+    version: 2.18.1-8
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.172402+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: abd71921287ef34e68ef7f17a963510710a9f846cf90f206a12e4a3ec4d21b7c
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-7.tgz
+    version: 2.18.1-7
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.171589+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: eea72d46f777ff53e8ecac821ab50bc4ef14d8a99547240acd3e0fb2b5913bac
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-6.tgz
+    version: 2.18.1-6
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.170749+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: b666269220552da48bab32bbde0ecccd4b804863ff91dd867afb1f979a30510a
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-5.tgz
+    version: 2.18.1-5
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.169317+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 7efc00635e47d08be82c1b10b126e01feebb398be843678ed03deb97014b41c5
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-4.tgz
+    version: 2.18.1-4
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.168436+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 280bb4efa347d044ae071fa363618d39c10846803f42c5aa9c8b978cfab67ed4
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-3.tgz
+    version: 2.18.1-3
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.167529+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: c5c2b433c8deefaf61b384db579d83930554e210c3f30600344fa4df7a937763
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-2.tgz
+    version: 2.18.1-2
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.166651+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 242d58c3193b9a33f04d40d24db53794131a96e83ce4ba383cfb1bb70492a1a1
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.1-1.tgz
+    version: 2.18.1-1
+  - apiVersion: v1
+    created: "2021-10-18T11:49:43.165769+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 63fce8235e4c03a43cce8b021383b999a3cae6dfc18b952616cee7f15c332097
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.0-4.tgz
+    version: 2.18.0-4
+  - apiVersion: v1
+    appVersion: 2.18.0-1
+    created: "2021-10-18T11:49:43.164872+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: cb92f0b6dd742034d230bf0ac4a573edcc7961b121cf11a7dca455fdbf09732f
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.0-3.tgz
+    version: 2.18.0-3
+  - apiVersion: v1
+    appVersion: 2.18.0-1
+    created: "2021-10-18T11:49:43.163981+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 9c5faf77342affce7a1f6c2f8f0454c11035ff573cd5586e65b78637f3beea43
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.0-2.tgz
+    version: 2.18.0-2
+  - apiVersion: v1
+    appVersion: 2.18.0-1
+    created: "2021-10-18T11:49:43.162398+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: e59c1277c29183f73af8ad169644cb01b821978d376323792a66fb484433af54
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.18.0-1.tgz
+    version: 2.18.0-1
+  - apiVersion: v1
+    appVersion: 2.16.0-5
+    created: "2021-10-18T11:49:43.161374+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: c61a2d0efeb8647b5694aa86a538f82804c2e6f5a970d1c8b3ca981e694f16d8
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.16.0-5.tgz
+    version: 2.16.0-5
+  - apiVersion: v1
+    appVersion: 2.16.0-4
+    created: "2021-10-18T11:49:43.160354+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 629312f88bafeb3779f395a3a360e1ede7c0e8f198407ae855d1a8503604bbf0
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.16.0-4.tgz
+    version: 2.16.0-4
+  - apiVersion: v1
+    appVersion: 2.16.0-3
+    created: "2021-10-18T11:49:43.159365+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: ed812d84294128a6084956ce31da9b28f821f42565fc2d82db382688dfc15b8a
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.16.0-3.tgz
+    version: 2.16.0-3
+  - apiVersion: v1
+    appVersion: 2.16.0-2
+    created: "2021-10-18T11:49:43.158465+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 71b09a2f77e24b41dc7ad00a78bec8ca9fe2bd6e2faa5d42aa051fab64743184
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.16.0-2.tgz
+    version: 2.16.0-2
+  - apiVersion: v1
+    appVersion: 2.16.0-1
+    created: "2021-10-18T11:49:43.157579+03:00"
+    description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: cd323f1fc068935afaa2b3368e8801a263b1701e5a6cb211dbcb4589e83e7a8c
+    engine: gotpl
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - wallarm-ingress-2.16.0-1.tgz
+    version: 2.16.0-1
+generated: "2021-10-18T11:49:43.154551+03:00"
