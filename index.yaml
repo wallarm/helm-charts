@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   api-firewall:
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.917289+03:00"
+    created: "2021-10-27T15:19:21.105368+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 3ba73bf36a8c746f0ae7ce48398b1321a812553bb74940f882b6e9c11a23dab1
     engine: gotpl
@@ -23,7 +23,7 @@ entries:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.5.tgz
     version: 0.6.5
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.916831+03:00"
+    created: "2021-10-27T15:19:21.104173+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 37fb8fa1051f4402765f56609dc214e9379f0d361d0622363e53a6dddc443d82
     engine: gotpl
@@ -44,7 +44,7 @@ entries:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.916392+03:00"
+    created: "2021-10-27T15:19:21.102916+03:00"
     description: Wallarm OpenAPI-based API Firewall
     digest: 7f84c24eea2d584b0d05d7f593c586637a55c27e55fce9b646fcec28ec52bf39
     engine: gotpl
@@ -67,7 +67,7 @@ entries:
   sysbindings:
   - apiVersion: v1
     appVersion: 0.9.4
-    created: "2021-10-27T11:54:53.919333863Z"
+    created: "2021-10-27T15:19:21.105832+03:00"
     description: SysBindings Daemon
     digest: fe53338495a9e1f09f42e9570d6ae6716fcadf3878c87583e034e0e761255626
     keywords:
@@ -84,7 +84,7 @@ entries:
     - https://charts.wallarm.com/sysbindings/sysbindings-0.9.4.tgz
     version: 0.9.4
   - apiVersion: v1
-    created: "2021-10-27T09:07:52.127232393Z"
+    created: "2021-10-27T15:19:21.105608+03:00"
     description: SysBindings Daemon
     digest: 77576b08cc90865a0436512446eb729c84a0cbb16b708e8ee4357047c603248b
     keywords:
@@ -102,7 +102,7 @@ entries:
     version: 0.9.3
   wallarm-ingress:
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.941194+03:00"
+    created: "2021-10-27T15:19:21.140054+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: aba66e06626a0f08c868300bbe0047342f85343c74a62861f2001d48d22d6ec4
@@ -124,7 +124,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.0.tgz
     version: 3.4.0
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.94053+03:00"
+    created: "2021-10-27T15:19:21.138431+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 7e268182d262c074a39f0fc64b6c4e34c0c37c3bae1f7632f33bc1a7973c96ba
@@ -146,7 +146,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.0-1.tgz
     version: 3.4.0-1
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.939868+03:00"
+    created: "2021-10-27T15:19:21.137145+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: e8a1074c4bd68d94ef085033c269ea19b9316268c98c7589854c3dea5ea06088
@@ -168,7 +168,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.1-1.tgz
     version: 3.2.1-1
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.939188+03:00"
+    created: "2021-10-27T15:19:21.13589+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 54ecd8e524724885af04d7fd200b467365bf565e7c107890608544879267d839
@@ -190,7 +190,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.0-2.tgz
     version: 3.2.0-2
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.93852+03:00"
+    created: "2021-10-27T15:19:21.134534+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: cd33b8e3bc5907412f86a174314b3e62483c09132db55e67e6400f63ff8d9bb1
@@ -212,7 +212,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.0-1.tgz
     version: 3.2.0-1
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.937802+03:00"
+    created: "2021-10-27T15:19:21.133247+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: d915b2b75405bc74e70dd2082dd4a071005e148305bc6c8b4856eb06ecf3ce59
@@ -234,7 +234,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-3.tgz
     version: 3.0.0-3
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.936151+03:00"
+    created: "2021-10-27T15:19:21.131927+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: a9b2ad0d94a7e179fff2243df8464a65754e89e85edbb8aa6fd0e57020cfd23b
@@ -256,7 +256,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-2.tgz
     version: 3.0.0-2
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.935431+03:00"
+    created: "2021-10-27T15:19:21.130362+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 0a164bd4636e2942e2b5d2d543205a8c167b65f3fdfb83598d5b8b42e44ca938
@@ -278,7 +278,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-1.tgz
     version: 3.0.0-1
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.934685+03:00"
+    created: "2021-10-27T15:19:21.129049+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 4e32483a77a5274666a02c65dc63098dda073cd51e04d3dd5c8de8f47179ae3e
@@ -300,7 +300,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-8.tgz
     version: 2.18.1-8
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.933941+03:00"
+    created: "2021-10-27T15:19:21.127931+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 536a2aa63a69894bd61ed8cc31cba565ed90532be9b92c28f4b91df26abaa3b8
@@ -322,7 +322,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-7.tgz
     version: 2.18.1-7
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.933202+03:00"
+    created: "2021-10-27T15:19:21.126642+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 5cc04f38e87ea31dbf853214b0d0e46790c3c0cf390527b7a69a909339fed733
@@ -344,7 +344,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-6.tgz
     version: 2.18.1-6
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.932381+03:00"
+    created: "2021-10-27T15:19:21.125408+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 482c2259c08e8418b7787ec6dddefc504c64615e30c7cddfa8e93bee1ac81a03
@@ -366,7 +366,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-5.tgz
     version: 2.18.1-5
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.930788+03:00"
+    created: "2021-10-27T15:19:21.124213+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: c91f049e9c966126a9f9f36f0963504328235d97f2a735f7698c638c81160b0c
@@ -388,7 +388,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-4.tgz
     version: 2.18.1-4
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.929973+03:00"
+    created: "2021-10-27T15:19:21.123001+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 5a2d563c8aab6ffa0d2c8d4cffd4fd29fa38aa2304c45e76770f9b5612f7620e
@@ -410,7 +410,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-3.tgz
     version: 2.18.1-3
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.929129+03:00"
+    created: "2021-10-27T15:19:21.121168+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 365de0850afde12bfe633e2f3252260164a1befb978e60a04aa89d5b118987f7
@@ -432,7 +432,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-2.tgz
     version: 2.18.1-2
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.928288+03:00"
+    created: "2021-10-27T15:19:21.119918+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 3d5bd78d83fd653fbcf1e0778f19ff47c257e2dc7bc13b3d19c351e9a9466699
@@ -454,7 +454,7 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-1.tgz
     version: 2.18.1-1
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.927401+03:00"
+    created: "2021-10-27T15:19:21.118637+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: fb4a670b48bf9264a21135868943f6a6c87eb8ae95d83f383b2c90d996b0e516
@@ -477,7 +477,7 @@ entries:
     version: 2.18.0-4
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-10-19T11:27:13.926545+03:00"
+    created: "2021-10-27T15:19:21.117462+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 29bb7a97daf7c78d1d3cfe0f783026bc6a00e9b04727927978e2f300db185847
@@ -500,7 +500,7 @@ entries:
     version: 2.18.0-3
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-10-19T11:27:13.92563+03:00"
+    created: "2021-10-27T15:19:21.116089+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: ad6b25ebb68cc7ed69c9970831bdce027097edaaf60d98983fa74e85c2be1f06
@@ -523,7 +523,7 @@ entries:
     version: 2.18.0-2
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-10-19T11:27:13.9241+03:00"
+    created: "2021-10-27T15:19:21.11494+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 01a79a8a3155ac3eb85e494115c789edeb75b7eba1118afb6c6a71d824d9837d
@@ -546,7 +546,7 @@ entries:
     version: 2.18.0-1
   - apiVersion: v1
     appVersion: 2.16.0-5
-    created: "2021-10-19T11:27:13.923087+03:00"
+    created: "2021-10-27T15:19:21.113013+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: d3594c48e04141fc1210d232d5411163d5e6143dab7204f6c7e6b65f709476ab
@@ -569,7 +569,7 @@ entries:
     version: 2.16.0-5
   - apiVersion: v1
     appVersion: 2.16.0-4
-    created: "2021-10-19T11:27:13.922068+03:00"
+    created: "2021-10-27T15:19:21.111671+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 6db2ef59e1c1e69143f6e274b67b80cc78fa68d03b1f5f8084059a2fe096f0c4
@@ -592,7 +592,7 @@ entries:
     version: 2.16.0-4
   - apiVersion: v1
     appVersion: 2.16.0-3
-    created: "2021-10-19T11:27:13.921032+03:00"
+    created: "2021-10-27T15:19:21.110156+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: a527c0fcb2c71908654865577cb96587c348d49c0101891ac130a294021983dc
@@ -615,7 +615,7 @@ entries:
     version: 2.16.0-3
   - apiVersion: v1
     appVersion: 2.16.0-2
-    created: "2021-10-19T11:27:13.920044+03:00"
+    created: "2021-10-27T15:19:21.108628+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: bb3385eee74c9e6f9723d2680be4c5a6b7592c8082653a39d021a4d0a407a5da
@@ -638,7 +638,7 @@ entries:
     version: 2.16.0-2
   - apiVersion: v1
     appVersion: 2.16.0-1
-    created: "2021-10-19T11:27:13.91915+03:00"
+    created: "2021-10-27T15:19:21.107328+03:00"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: e92fffa36c39107c670a48fd53f70f2dcce352a9e376e7d1995ee0c5714dace9
@@ -659,4 +659,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
-generated: "2021-10-27T11:54:53.918461952Z"
+generated: "2021-10-27T15:19:21.101574+03:00"
