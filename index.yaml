@@ -66,9 +66,9 @@ entries:
     version: 0.6.0
   sysbindings:
   - apiVersion: v1
-    created: "2021-10-19T11:27:13.918201+03:00"
+    created: "2021-10-27T09:07:52.127232393Z"
     description: SysBindings Daemon
-    digest: 6525d728f761048f51815a0c012a0cd1833c987d97a3b3e7fb403cc6f5ace941
+    digest: 77576b08cc90865a0436512446eb729c84a0cbb16b708e8ee4357047c603248b
     keywords:
     - sysctl
     - sysfs
@@ -641,4 +641,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
-generated: "2021-10-19T11:27:13.91581+03:00"
+generated: "2021-10-27T09:07:52.125536238Z"
