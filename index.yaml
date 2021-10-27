@@ -66,10 +66,10 @@ entries:
     version: 0.6.0
   sysbindings:
   - apiVersion: v1
-    appVersion: v0.9.4
-    created: "2021-10-27T11:48:29.863053932Z"
+    appVersion: 0.9.4
+    created: "2021-10-27T11:54:53.919333863Z"
     description: SysBindings Daemon
-    digest: 5cac1501b258eb7715d38d869d98305fdf07ba5a4625ca1208b45decce56cef2
+    digest: fe53338495a9e1f09f42e9570d6ae6716fcadf3878c87583e034e0e761255626
     keywords:
     - sysctl
     - sysfs
@@ -81,8 +81,8 @@ entries:
     sources:
     - https://github.com/wallarm/sysbindings
     urls:
-    - https://charts.wallarm.com/sysbindings/sysbindings-v0.9.4.tgz
-    version: v0.9.4
+    - https://charts.wallarm.com/sysbindings/sysbindings-0.9.4.tgz
+    version: 0.9.4
   - apiVersion: v1
     created: "2021-10-27T09:07:52.127232393Z"
     description: SysBindings Daemon
@@ -659,4 +659,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
-generated: "2021-10-27T11:48:29.862347123Z"
+generated: "2021-10-27T11:54:53.918461952Z"
