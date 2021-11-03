@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Wallarm Helm Chart Repository</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+
+            html {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            body {
+                margin: 0;
+                height: 100vh;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .logo {
+                margin-top: 32px;
+            }
+
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+                max-width: 560px;
+                margin-bottom: 100px;
+                padding: 16px;
+            }
+
+            .title {
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                margin-bottom: 24px;
+            }
+
+            .text {
+                text-align: center;
+                margin: 16px 0 8px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            .mono {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                max-width: 520px;
+                border: 1px solid rgba(149, 157, 172, 0.24);
+                transition: border-color 0.24s cubic-bezier(0.24, 0.1, 0.24, 1);
+                border-radius: 4px;
+                padding: 8px 16px;
+                margin: 12px 0 16px;
+                cursor: pointer;
+            }
+
+            .mono svg {
+                flex: 0 0 24px;
+                margin-left: 16px;
+                transition: color 0.24s cubic-bezier(0.24, 0.1, 0.24, 1);
+            }
+
+            .mono:hover {
+                border: 1px solid rgba(252, 115, 3, 0.48);
+            }
+
+            .mono:hover svg {
+                color: rgb(252, 115, 3);
+            }
+
+            .link {
+                text-decoration: none;
+                outline: none;
+                color: rgb(252, 115, 3);
+                transition: color 0.24s cubic-bezier(0.24, 0.1, 0.24, 1);
+            }
+
+            .link:hover {
+                color: rgba(252, 115, 3, 0.72);
+            }
+
+            .notice {
+                background: rgba(252, 115, 3, 0.72);
+                color: #fff;
+                padding: 8px 16px;
+                border-radius: 4px;
+                pointer-events: none;
+                position: absolute;
+                bottom: -40px;
+                transition: 0.24s cubic-bezier(0.24,0.1,0.24,1);
+            }
+
+            .show {
+                bottom: 16px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class='container'>
+            <div class='logo'>
+                <a target='_blank' href='https://wallarm.com'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="64" fill="none">
+                        <path fill="#000" fill-rule="evenodd"
+                              d="M9.333 38.667H12l3.333 9.997L18 38.667h3.333l-4.666 14.666H14l-3.333-10-3.334 10H4.667L0 38.667h3.333L6 48.664l3.333-9.997zm17.515 12.482c2.182 0 3.819-1.228 3.819-3.03v-.9c-.846-.328-2.02-.574-3.301-.574-2.074 0-3.301.846-3.301 2.32v.056c0 1.364 1.227 2.128 2.783 2.128zm-3.515-11.728c1.219-.44 2.572-.719 4.338-.719 4.256 0 6.329 2.117 6.329 5.965v8.666h-3.333V51.56c-.983 1.173-2.423 2.074-4.606 2.074-2.728 0-5.128-1.556-5.128-4.449v-.054c0-3.112 2.483-4.641 5.838-4.641 1.746 0 2.777.246 3.896.6v-.354c0-1.993-1.168-3.085-3.46-3.085-1.493 0-2.67.309-3.874.788v-3.017zM36 53.333v-20h3.333v20H36zm5.333 0v-20h3.334l.066 20h-3.4zm10.848-2.184c2.182 0 3.819-1.228 3.819-3.03v-.9c-.846-.328-2.019-.574-3.301-.574-2.073 0-3.301.846-3.301 2.32v.056c0 1.364 1.227 2.128 2.783 2.128zm-3.514-11.728c1.218-.44 2.571-.719 4.337-.719 4.256 0 6.33 2.117 6.33 5.965v8.666H56V51.56c-.982 1.173-2.423 2.074-4.605 2.074-2.728 0-5.129-1.556-5.129-4.449v-.054c0-3.112 2.483-4.641 5.838-4.641 1.746 0 2.778.246 3.896.6v-.354c0-1.993-1.168-3.085-3.46-3.085-1.493 0-2.67.309-3.873.788v-3.017zm12.666 13.912V38.667h3.334v3.248c.9-2.157 2.524-3.63 5.06-3.521v3.494h-.19c-2.892 0-4.87 1.882-4.87 5.704v5.741h-3.334zm32-9.453v9.453H90V45.08c0-2.293-1.031-3.71-2.886-3.71-1.8 0-3.114 1.39-3.114 3.71v8.254h-3.333v-8.47c0-2.239-1.028-3.494-2.856-3.494-1.828 0-3.144 1.471-3.144 3.71v8.254h-3.334V38.667h3.334v2.183c.927-1.283 2.244-2.484 4.454-2.484 2.073 0 3.519 1.01 4.283 2.538 1.173-1.528 2.7-2.538 4.883-2.538 3.137 0 5.046 1.993 5.046 5.514z"
+                              clip-rule="evenodd" />
+                        <path fill="#FC7303"
+                              d="M49.333 16L68 8v12l17.333-8v9.333l9.334-4V24l-9.334 4v-4L68 32v-5.333l-18.667 8V16z" />
+                    </svg>
+                </a>
+            </div>
+
+            <section>
+                <div class='title'> Wallarm Helm Chart Repository </div>
+
+                <div class='text'> To deploy any Wallarm Helm Chart into your Kubernetes cluster: </div>
+
+                <div id='deploy' class='mono' data-command='helm repo add wallarm https://charts.wallarm.com'>
+                    $ helm repo add wallarm https://charts.wallarm.com
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          d="M5.7 14.7H4.8C4.32261 14.7 3.86477 14.5104 3.52721 14.1728C3.18964 13.8352 3 13.3774 3 12.9V4.8C3 4.32261 3.18964 3.86477 3.52721 3.52721C3.86477 3.18964 4.32261 3 4.8 3H12.9C13.3774 3 13.8352 3.18964 14.1728 3.52721C14.5104 3.86477 14.7 4.32261 14.7 4.8V5.7M11.1 9.3H19.2C20.1941 9.3 21 10.1059 21 11.1V19.2C21 20.1941 20.1941 21 19.2 21H11.1C10.1059 21 9.3 20.1941 9.3 19.2V11.1C9.3 10.1059 10.1059 9.3 11.1 9.3Z"
+                        />
+                    </svg>
+                </div>
+
+                <div class='text'> To get all available Wallarm Helm Charts: </div>
+
+                <div id='get' class='mono' data-command='helm search repo wallarm'>
+                    $ helm search repo wallarm
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M5.7 14.7H4.8C4.32261 14.7 3.86477 14.5104 3.52721 14.1728C3.18964 13.8352 3 13.3774 3 12.9V4.8C3 4.32261 3.18964 3.86477 3.52721 3.52721C3.86477 3.18964 4.32261 3 4.8 3H12.9C13.3774 3 13.8352 3.18964 14.1728 3.52721C14.5104 3.86477 14.7 4.32261 14.7 4.8V5.7M11.1 9.3H19.2C20.1941 9.3 21 10.1059 21 11.1V19.2C21 20.1941 20.1941 21 19.2 21H11.1C10.1059 21 9.3 20.1941 9.3 19.2V11.1C9.3 10.1059 10.1059 9.3 11.1 9.3Z"
+                        />
+                    </svg>
+                </div>
+
+                <div class='text'>
+                    <a class='link' target='_blank' href='https://docs.wallarm.com/admin-en/installation-kubernetes-en/'>Learn more</a>
+                </div>
+            </section>
+
+            <div class='notice'>
+                Copied to clipboard
+            </div>
+        </div>
+
+        <script>
+            const notice = document.querySelector('.notice');
+
+            function writeText(str) {
+                const range = document.createRange();
+
+                function listener(e) {
+                    e.clipboardData.setData('text/plain', str);
+                    e.preventDefault();
+                }
+
+                range.selectNodeContents(document.body);
+                document.getSelection().addRange(range);
+                document.addEventListener('copy', listener);
+                document.execCommand('copy');
+                document.removeEventListener('copy', listener);
+                document.getSelection().removeAllRanges();
+            }
+
+            function copy(name) {
+
+                notice.classList.add('show');
+                setTimeout(() => notice.classList.remove('show'), 1500)
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    return navigator.clipboard.writeText(name);
+                }
+                return writeText(name);
+            }
+
+            document.querySelectorAll('.mono').forEach(el => {
+                el.addEventListener('click', () => copy(el.dataset.command))
+            })
+        </script>
+    </body>
+</html>
