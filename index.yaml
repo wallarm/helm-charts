@@ -112,6 +112,28 @@ entries:
     version: 0.9.3
   wallarm-ingress:
   - apiVersion: v1
+    appVersion: 3.4.2
+    created: "2021-11-25T13:33:34.32674527Z"
+    description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
+      configuration.
+    digest: 3add4a6cd54c1c735dedd74806a1630569fdac314a0ad95d1a3cd54c535dcb4f
+    home: https://github.com/wallarm/ingress
+    icon: https://wallarm.com/assets/images/logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-chart
+    urls:
+    - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.2.tgz
+    version: 3.4.2
+  - apiVersion: v1
     appVersion: 3.4.1
     created: "2021-11-19T11:30:46.032546511Z"
     description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
@@ -691,4 +713,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
-generated: "2021-11-19T11:30:46.029933769Z"
+generated: "2021-11-25T13:33:34.323577929Z"
