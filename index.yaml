@@ -3,9 +3,9 @@ entries:
   api-firewall:
   - apiVersion: v1
     appVersion: 0.6.7
-    created: "2022-01-24T16:12:25.418279555Z"
+    created: "2022-01-25T13:16:16.628172813Z"
     description: Wallarm OpenAPI-based API Firewall
-    digest: 6bc49d75ef63c9e1bc86d5931cbaf9284691ed1bcaf74564711d91b1237f621c
+    digest: 939abfcd38ee68a92bafb248d551942b918d5fe5c1981828469a534c67e7daef
     keywords:
     - wallarm
     - ingress
@@ -778,4 +778,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
-generated: "2022-01-24T16:12:25.417019198Z"
+generated: "2022-01-25T13:16:16.626413897Z"
