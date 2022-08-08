@@ -1197,6 +1197,30 @@ entries:
   wallarm-sidecar:
   - apiVersion: v2
     appVersion: 4.0.5
+    created: "2022-08-08T08:36:57.243477269Z"
+    description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
+      NGINX with Wallarm module and helper services.
+    digest: df64f3a1a3d6efcb94b2cdf8eb326eec7b37ceac31e38fd6c16c757de95598ff
+    home: https://github.com/wallarm/sidecar
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - sidecar
+    - nginx
+    - firewall
+    - wallarm
+    kubeVersion: '>=1.19.16-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-sidecar
+    sources:
+    - https://github.com/wallarm/sidecar
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 4.0.5
     created: "2022-08-07T09:44:01.486868481Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
@@ -1291,4 +1315,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-07T09:44:01.482997796Z"
+generated: "2022-08-08T08:36:57.240846116Z"
