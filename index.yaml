@@ -127,6 +127,26 @@ entries:
     version: 1.2.0
   sysbindings:
   - apiVersion: v1
+    appVersion: 0.9.8
+    created: "2022-08-23T15:57:09.610236066Z"
+    description: SysBindings Daemon
+    digest: 4a0c7609c82d5682582364f421eb3e7774bfbd71c4b5d54498ebbf7d22f90b22
+    home: https://github.com/wallarm/sidecar
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - sysctl
+    - sysfs
+    - operations
+    maintainers:
+    - email: aburyndin@wallarm.com
+      name: Andrey Buryndin
+    name: sysbindings
+    sources:
+    - https://github.com/wallarm/sysbindings
+    urls:
+    - https://charts.wallarm.com/sysbindings/sysbindings-0.9.8.tgz
+    version: 0.9.8
+  - apiVersion: v1
     appVersion: 0.9.7
     created: "2022-08-17T10:54:52.982575103Z"
     description: SysBindings Daemon
@@ -1278,4 +1298,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2022-08-17T10:54:52.981368904Z"
+generated: "2022-08-23T15:57:09.607891043Z"
