@@ -1366,6 +1366,42 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: sidecar
+          image: wallarm/sidecar:4.2.1-1
+        - name: sidecar-controller
+          image: wallarm/sidecar-controller:1.0.3
+        - name: ingress-ruby
+          image: wallarm/ingress-ruby:4.2.1-1
+        - name: ingress-python
+          image: wallarm/ingress-python:4.2.1-1
+        - name: ingress-tarantool
+          image: wallarm/ingress-tarantool:4.2.1-1
+    apiVersion: v2
+    appVersion: 4.2.1
+    created: "2022-09-07T12:46:32.973974024Z"
+    description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
+      NGINX with Wallarm module and helper services.
+    digest: 7e3a7d2c490e47712abbc52bc3fde2f772397c3c14ca7fd256d409ea497f25ed
+    home: https://github.com/wallarm/sidecar
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - sidecar
+    - nginx
+    - firewall
+    - wallarm
+    kubeVersion: '>=1.19.16-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-sidecar
+    sources:
+    - https://github.com/wallarm/sidecar
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.1.3.tgz
+    version: 1.1.3
+  - annotations:
+      artifacthub.io/images: |
+        - name: sidecar
           image: wallarm/sidecar:4.2.0-1
         - name: sidecar-controller
           image: wallarm/sidecar-controller:1.0.2
@@ -1507,4 +1543,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2022-09-06T06:36:32.051614685Z"
+generated: "2022-09-07T12:46:32.970537884Z"
