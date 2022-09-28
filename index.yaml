@@ -3,7 +3,7 @@ entries:
   api-firewall:
   - apiVersion: v1
     appVersion: 0.6.9
-    created: "2022-09-13T17:00:23.523409611Z"
+    created: "2022-09-28T17:21:54.038693279Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 0214a028dc47afe9458e4be4cf046917d5be9186f33873f59c8843dd295ca644
     home: https://github.com/wallarm/api-firewall
@@ -26,7 +26,7 @@ entries:
     version: 0.6.9
   - apiVersion: v1
     appVersion: 0.6.8
-    created: "2022-04-11T15:29:17.827055276Z"
+    created: "2022-09-28T17:21:54.033647037Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 13cbc1fd05986bb8c9dce94ca59e838a88381671d98ff14023b9616c583bbd12
     keywords:
@@ -47,7 +47,7 @@ entries:
     version: 0.6.8
   - apiVersion: v1
     appVersion: 0.6.7
-    created: "2022-01-25T13:16:16.628172813Z"
+    created: "2022-09-28T17:21:54.029696046Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 939abfcd38ee68a92bafb248d551942b918d5fe5c1981828469a534c67e7daef
     keywords:
@@ -67,10 +67,9 @@ entries:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.7.tgz
     version: 0.6.7
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.554922+03:00"
+    created: "2022-09-28T17:21:54.02591882Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 3ba73bf36a8c746f0ae7ce48398b1321a812553bb74940f882b6e9c11a23dab1
-    engine: gotpl
     keywords:
     - wallarm
     - ingress
@@ -88,10 +87,9 @@ entries:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.5.tgz
     version: 0.6.5
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.553293+03:00"
+    created: "2022-09-28T17:21:54.020584832Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 37fb8fa1051f4402765f56609dc214e9379f0d361d0622363e53a6dddc443d82
-    engine: gotpl
     keywords:
     - wallarm
     - ingress
@@ -109,10 +107,9 @@ entries:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.4.tgz
     version: 0.6.4
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.552367+03:00"
+    created: "2022-09-28T17:21:54.016167441Z"
     description: Wallarm OpenAPI-based API Firewall
     digest: 7f84c24eea2d584b0d05d7f593c586637a55c27e55fce9b646fcec28ec52bf39
-    engine: gotpl
     keywords:
     - wallarm
     - ingress
@@ -129,10 +126,36 @@ entries:
     urls:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.0.tgz
     version: 0.6.0
+  kong-preview:
+  - apiVersion: v1
+    appVersion: "2.7"
+    created: "2022-09-28T17:21:54.048815306Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.6.8
+    description: The Cloud-Native Ingress and API-management
+    digest: 1626d07744972145325b1076756bea6d60b81ed88ffb87afd093460bf6e05c22
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    keywords:
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong-preview
+    urls:
+    - https://charts.wallarm.com/kong-preview/kong-preview-4.2.3.tgz
+    version: 4.2.3
   pgbouncer:
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2022-06-04T16:26:14.11467333Z"
+    created: "2022-09-28T17:21:54.055122951Z"
     description: A Helm chart installing pgbouncer in kubernetes
     digest: 3b3501abc22c07b7433d49b745fd4e6e0c5e52e040594be72bff091497bfe03c
     name: pgbouncer
@@ -141,7 +164,7 @@ entries:
     version: 1.2.1
   - apiVersion: v1
     appVersion: 1.15.0
-    created: "2021-11-08T12:58:48.555284+03:00"
+    created: "2022-09-28T17:21:54.052186474Z"
     description: A Helm chart installing pgbouncer in kubernetes
     digest: 0e28e910bd77a034c472753d1e2507dd5ad6c4d1c7e62e0acb1a0e76ed839377
     name: pgbouncer
@@ -151,7 +174,7 @@ entries:
   sysbindings:
   - apiVersion: v1
     appVersion: 0.9.9
-    created: "2022-08-24T04:45:32.678043327Z"
+    created: "2022-09-28T17:21:54.073414521Z"
     description: SysBindings Daemon
     digest: 2e886ef0e48355e847164b87bd80d932017ffe757eacd940fc70e5fd3a2f0157
     home: https://github.com/wallarm/sysbindings
@@ -171,7 +194,7 @@ entries:
     version: 0.9.9
   - apiVersion: v1
     appVersion: 0.9.8
-    created: "2022-08-23T15:57:09.610236066Z"
+    created: "2022-09-28T17:21:54.070528959Z"
     description: SysBindings Daemon
     digest: 4a0c7609c82d5682582364f421eb3e7774bfbd71c4b5d54498ebbf7d22f90b22
     home: https://github.com/wallarm/sidecar
@@ -191,7 +214,7 @@ entries:
     version: 0.9.8
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2022-08-17T10:54:52.982575103Z"
+    created: "2022-09-28T17:21:54.067841956Z"
     description: SysBindings Daemon
     digest: 7c3c02258b487bdae95f20119f86ce76024849dc2dab17f7062e27d94b3ad23e
     keywords:
@@ -209,7 +232,7 @@ entries:
     version: 0.9.7
   - apiVersion: v1
     appVersion: 0.9.6
-    created: "2022-08-17T08:23:19.979552301Z"
+    created: "2022-09-28T17:21:54.065525251Z"
     description: SysBindings Daemon
     digest: 090f85e2635612965177c9da6188afcb0fe8f52521b072919d09987f39d94f70
     keywords:
@@ -227,7 +250,7 @@ entries:
     version: 0.9.6
   - apiVersion: v1
     appVersion: 0.9.5
-    created: "2022-04-23T08:53:06.152681737Z"
+    created: "2022-09-28T17:21:54.063025422Z"
     description: SysBindings Daemon
     digest: be4dacef65afeecae2420ae22019f8bb6abe7a3e7c582d0ba88b61b345ce0cd2
     keywords:
@@ -245,7 +268,7 @@ entries:
     version: 0.9.5
   - apiVersion: v1
     appVersion: 0.9.4
-    created: "2021-11-08T12:58:48.556964+03:00"
+    created: "2022-09-28T17:21:54.060237847Z"
     description: SysBindings Daemon
     digest: fe53338495a9e1f09f42e9570d6ae6716fcadf3878c87583e034e0e761255626
     keywords:
@@ -262,7 +285,7 @@ entries:
     - https://charts.wallarm.com/sysbindings/sysbindings-0.9.4.tgz
     version: 0.9.4
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.556445+03:00"
+    created: "2022-09-28T17:21:54.057601897Z"
     description: SysBindings Daemon
     digest: 77576b08cc90865a0436512446eb729c84a0cbb16b708e8ee4357047c603248b
     keywords:
@@ -281,7 +304,7 @@ entries:
   wallarm-ingress:
   - apiVersion: v2
     appVersion: 4.2.3
-    created: "2022-09-06T06:36:32.055127859Z"
+    created: "2022-09-28T17:21:54.315029238Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: c8039b8663bed6947b842b7f0756c0cf153e235514ebccbdb83e63055327b4a3
@@ -304,7 +327,7 @@ entries:
     version: 4.2.3
   - apiVersion: v2
     appVersion: 4.2.2
-    created: "2022-09-05T12:17:41.935292757Z"
+    created: "2022-09-28T17:21:54.309952196Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 0bb48ec9fdf1cb92e9edf75715d8767343e50a03132a8f9f0e8fb201bbdfe342
@@ -327,7 +350,7 @@ entries:
     version: 4.2.2
   - apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-08-31T08:13:34.841004336Z"
+    created: "2022-09-28T17:21:54.30408043Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 8e9676fdc2c05d932cff4d8e5682e310b733603db867051295a78fb2e3d5d488
@@ -350,7 +373,7 @@ entries:
     version: 4.2.1
   - apiVersion: v2
     appVersion: 4.2.0
-    created: "2022-08-12T17:13:29.10774932Z"
+    created: "2022-09-28T17:21:54.297147775Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 33640b3ede8115b2aa636e101f895f06783a4367e2e951cb09cd9625e8b4fdf5
@@ -373,7 +396,7 @@ entries:
     version: 4.2.0
   - apiVersion: v2
     appVersion: 4.0.6
-    created: "2022-07-28T08:27:33.844902468Z"
+    created: "2022-09-28T17:21:54.291648473Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 629f4dc1773e18386d60baa72ccdf3e27c9d7ee29cb71a26c83f719bd4393ce3
@@ -396,7 +419,7 @@ entries:
     version: 4.0.6
   - apiVersion: v2
     appVersion: 4.0.5
-    created: "2022-07-13T09:49:14.295325159Z"
+    created: "2022-09-28T17:21:54.286401856Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: a0698e21b0f3997c7aaf8aee43c41e81d61d9707008ab723e78672a0d8c7e52f
@@ -419,7 +442,7 @@ entries:
     version: 4.0.5
   - apiVersion: v2
     appVersion: 4.0.4
-    created: "2022-06-14T09:27:37.013310561Z"
+    created: "2022-09-28T17:21:54.279726706Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 575404f556bf5bcdeb651574bba217c5c8e8727d55601c8affa76daff52ccd3f
@@ -442,7 +465,7 @@ entries:
     version: 4.0.4
   - apiVersion: v2
     appVersion: 4.0.3
-    created: "2022-06-07T14:05:11.66267459Z"
+    created: "2022-09-28T17:21:54.274402915Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: d7eaa1444f7b5c071d52288595f1458677f211fa48ac209e5567d17dec5e2f6d
@@ -465,7 +488,7 @@ entries:
     version: 4.0.3
   - apiVersion: v2
     appVersion: 4.0.2
-    created: "2022-05-31T14:00:14.254338086Z"
+    created: "2022-09-28T17:21:54.268884267Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 0bf2dff244f32d356fbe72614f3df319f5afeac95a578bc71f941241dc9e6490
@@ -488,7 +511,7 @@ entries:
     version: 4.0.2
   - apiVersion: v2
     appVersion: 4.0.1
-    created: "2022-05-27T14:45:05.779599593Z"
+    created: "2022-09-28T17:21:54.262080539Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 4dafdcce204f91552498cc36a6bfe56ea0264700f845272de557088f3a0a6e60
@@ -511,7 +534,7 @@ entries:
     version: 4.0.1
   - apiVersion: v2
     appVersion: 3.6.9
-    created: "2022-04-04T08:14:49.499742753Z"
+    created: "2022-09-28T17:21:54.256570761Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: f4735fa0a4e45549598c90a4948edef8fa03c819c9cadb1bbcff6e46a6e33de1
@@ -534,7 +557,7 @@ entries:
     version: 3.6.9
   - apiVersion: v2
     appVersion: 3.6.8
-    created: "2022-03-22T12:17:42.414765251Z"
+    created: "2022-09-28T17:21:54.251507477Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 75885c02c2080a806e15107bcc92140e3dbef3b19b9a59b7e9987408d0cfe538
@@ -557,7 +580,7 @@ entries:
     version: 3.6.8
   - apiVersion: v2
     appVersion: 3.6.7
-    created: "2022-03-22T12:05:57.940702203Z"
+    created: "2022-09-28T17:21:54.245366404Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 1cf95d156ee6326a1c107d31b1b4cdca80c1df74341472f7757e6c3e503fe531
@@ -580,7 +603,7 @@ entries:
     version: 3.6.7
   - apiVersion: v2
     appVersion: 3.6.6
-    created: "2022-03-18T15:57:07.95126209Z"
+    created: "2022-09-28T17:21:54.240023895Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: e1c39f33dd7e722174aea94e5320d5f99d9419a98181cafeadbb323c090b874b
@@ -603,7 +626,7 @@ entries:
     version: 3.6.6
   - apiVersion: v2
     appVersion: 3.6.5
-    created: "2022-03-17T16:07:45.006627847Z"
+    created: "2022-09-28T17:21:54.233357754Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: afbb6e47c5e03fe755005569048cfecf8fd419525eddeeba08604bfec7bfc653
@@ -626,7 +649,7 @@ entries:
     version: 3.6.5
   - apiVersion: v2
     appVersion: 3.6.4
-    created: "2022-03-10T15:31:47.248689029Z"
+    created: "2022-09-28T17:21:54.228297405Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: e4a6c1d9e819cba1a312479861e519bf8c93573b1dd8dc4138546d7071151883
@@ -649,7 +672,7 @@ entries:
     version: 3.6.4
   - apiVersion: v2
     appVersion: 3.6.3
-    created: "2022-02-15T08:05:26.925830817Z"
+    created: "2022-09-28T17:21:54.222892388Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: f87866fb774fbb9e6497f4851c5c721913576fe02eec81d88ccf2f329d201ffc
@@ -672,7 +695,7 @@ entries:
     version: 3.6.3
   - apiVersion: v2
     appVersion: 3.6.2
-    created: "2022-02-14T19:46:20.433377012Z"
+    created: "2022-09-28T17:21:54.217884838Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 99b86713522f205280aaa1332b49ce1c533c3c66e6b5d017cef25673bf163a3f
@@ -695,7 +718,7 @@ entries:
     version: 3.6.2
   - apiVersion: v2
     appVersion: 3.6.1
-    created: "2022-02-10T13:14:00.17755835Z"
+    created: "2022-09-28T17:21:54.211590253Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: baaf7f5ba17117ee7987600f05a1f37b54acd8040df6ac9c2f2eea95a29e00ba
@@ -718,7 +741,7 @@ entries:
     version: 3.6.1
   - apiVersion: v2
     appVersion: 3.6.0
-    created: "2022-02-08T18:41:46.278667521Z"
+    created: "2022-09-28T17:21:54.206608684Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
     digest: 664dee9676ec5c883808ab67bda628bd323420df956f435f9e5da7af9017d887
@@ -741,7 +764,7 @@ entries:
     version: 3.6.0
   - apiVersion: v1
     appVersion: 3.4.4
-    created: "2022-01-14T11:34:29.139789289Z"
+    created: "2022-09-28T17:21:54.201142696Z"
     description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
       configuration.
     digest: 72a0bb68115d9caae25101598cc357bcfec36234a474e623239cfd607cfd508e
@@ -763,7 +786,7 @@ entries:
     version: 3.4.4
   - apiVersion: v1
     appVersion: 3.4.3
-    created: "2022-01-11T13:42:47.351165049Z"
+    created: "2022-09-28T17:21:54.195827356Z"
     description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
       configuration.
     digest: d20d7aafaad586cd9735fe01343fffbb06295ed02c5fe94ff0e0fac67777e39a
@@ -785,7 +808,7 @@ entries:
     version: 3.4.3
   - apiVersion: v1
     appVersion: 3.4.2
-    created: "2021-11-25T13:33:34.32674527Z"
+    created: "2022-09-28T17:21:54.191305203Z"
     description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
       configuration.
     digest: 3add4a6cd54c1c735dedd74806a1630569fdac314a0ad95d1a3cd54c535dcb4f
@@ -807,7 +830,7 @@ entries:
     version: 3.4.2
   - apiVersion: v1
     appVersion: 3.4.1
-    created: "2021-11-19T11:30:46.032546511Z"
+    created: "2022-09-28T17:21:54.187359939Z"
     description: Wallarm Ingress controller that uses ConfigMap to store the NGINX
       configuration.
     digest: 83aed703317cb05f5b5ec8e25fef9bec71fe6c5996c0bb803618b739464a7c29
@@ -828,11 +851,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.1.tgz
     version: 3.4.1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.596766+03:00"
+    created: "2022-09-28T17:21:54.183057996Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: aba66e06626a0f08c868300bbe0047342f85343c74a62861f2001d48d22d6ec4
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -850,11 +872,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.0.tgz
     version: 3.4.0
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.595451+03:00"
+    created: "2022-09-28T17:21:54.177101931Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 7e268182d262c074a39f0fc64b6c4e34c0c37c3bae1f7632f33bc1a7973c96ba
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -872,11 +893,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.4.0-1.tgz
     version: 3.4.0-1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.594028+03:00"
+    created: "2022-09-28T17:21:54.172688731Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: e8a1074c4bd68d94ef085033c269ea19b9316268c98c7589854c3dea5ea06088
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -894,11 +914,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.1-1.tgz
     version: 3.2.1-1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.592542+03:00"
+    created: "2022-09-28T17:21:54.168471086Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 54ecd8e524724885af04d7fd200b467365bf565e7c107890608544879267d839
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -916,11 +935,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.0-2.tgz
     version: 3.2.0-2
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.591029+03:00"
+    created: "2022-09-28T17:21:54.164523796Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: cd33b8e3bc5907412f86a174314b3e62483c09132db55e67e6400f63ff8d9bb1
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -938,11 +956,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.2.0-1.tgz
     version: 3.2.0-1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.589562+03:00"
+    created: "2022-09-28T17:21:54.159611021Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: d915b2b75405bc74e70dd2082dd4a071005e148305bc6c8b4856eb06ecf3ce59
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -960,11 +977,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-3.tgz
     version: 3.0.0-3
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.588093+03:00"
+    created: "2022-09-28T17:21:54.155156056Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: a9b2ad0d94a7e179fff2243df8464a65754e89e85edbb8aa6fd0e57020cfd23b
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -982,11 +998,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-2.tgz
     version: 3.0.0-2
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.586105+03:00"
+    created: "2022-09-28T17:21:54.151041217Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 0a164bd4636e2942e2b5d2d543205a8c167b65f3fdfb83598d5b8b42e44ca938
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1004,11 +1019,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-3.0.0-1.tgz
     version: 3.0.0-1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.584549+03:00"
+    created: "2022-09-28T17:21:54.14730848Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 4e32483a77a5274666a02c65dc63098dda073cd51e04d3dd5c8de8f47179ae3e
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1026,11 +1040,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-8.tgz
     version: 2.18.1-8
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.583252+03:00"
+    created: "2022-09-28T17:21:54.141625844Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 536a2aa63a69894bd61ed8cc31cba565ed90532be9b92c28f4b91df26abaa3b8
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1048,11 +1061,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-7.tgz
     version: 2.18.1-7
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.581765+03:00"
+    created: "2022-09-28T17:21:54.137507234Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 5cc04f38e87ea31dbf853214b0d0e46790c3c0cf390527b7a69a909339fed733
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1070,11 +1082,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-6.tgz
     version: 2.18.1-6
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.579868+03:00"
+    created: "2022-09-28T17:21:54.133574612Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 482c2259c08e8418b7787ec6dddefc504c64615e30c7cddfa8e93bee1ac81a03
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1092,11 +1103,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-5.tgz
     version: 2.18.1-5
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.578026+03:00"
+    created: "2022-09-28T17:21:54.129681659Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: c91f049e9c966126a9f9f36f0963504328235d97f2a735f7698c638c81160b0c
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1114,11 +1124,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-4.tgz
     version: 2.18.1-4
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.576076+03:00"
+    created: "2022-09-28T17:21:54.125783049Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 5a2d563c8aab6ffa0d2c8d4cffd4fd29fa38aa2304c45e76770f9b5612f7620e
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1136,11 +1145,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-3.tgz
     version: 2.18.1-3
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.573554+03:00"
+    created: "2022-09-28T17:21:54.121353016Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 365de0850afde12bfe633e2f3252260164a1befb978e60a04aa89d5b118987f7
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1158,11 +1166,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-2.tgz
     version: 2.18.1-2
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.572132+03:00"
+    created: "2022-09-28T17:21:54.117012032Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 3d5bd78d83fd653fbcf1e0778f19ff47c257e2dc7bc13b3d19c351e9a9466699
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1180,11 +1187,10 @@ entries:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.18.1-1.tgz
     version: 2.18.1-1
   - apiVersion: v1
-    created: "2021-11-08T12:58:48.570525+03:00"
+    created: "2022-09-28T17:21:54.113247726Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: fb4a670b48bf9264a21135868943f6a6c87eb8ae95d83f383b2c90d996b0e516
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1203,11 +1209,10 @@ entries:
     version: 2.18.0-4
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-11-08T12:58:48.569231+03:00"
+    created: "2022-09-28T17:21:54.109158939Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 29bb7a97daf7c78d1d3cfe0f783026bc6a00e9b04727927978e2f300db185847
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1226,11 +1231,10 @@ entries:
     version: 2.18.0-3
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-11-08T12:58:48.567863+03:00"
+    created: "2022-09-28T17:21:54.105097319Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: ad6b25ebb68cc7ed69c9970831bdce027097edaaf60d98983fa74e85c2be1f06
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1249,11 +1253,10 @@ entries:
     version: 2.18.0-2
   - apiVersion: v1
     appVersion: 2.18.0-1
-    created: "2021-11-08T12:58:48.56612+03:00"
+    created: "2022-09-28T17:21:54.099205998Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 01a79a8a3155ac3eb85e494115c789edeb75b7eba1118afb6c6a71d824d9837d
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1272,11 +1275,10 @@ entries:
     version: 2.18.0-1
   - apiVersion: v1
     appVersion: 2.16.0-5
-    created: "2021-11-08T12:58:48.564231+03:00"
+    created: "2022-09-28T17:21:54.095382537Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: d3594c48e04141fc1210d232d5411163d5e6143dab7204f6c7e6b65f709476ab
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1295,11 +1297,10 @@ entries:
     version: 2.16.0-5
   - apiVersion: v1
     appVersion: 2.16.0-4
-    created: "2021-11-08T12:58:48.562652+03:00"
+    created: "2022-09-28T17:21:54.091216225Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 6db2ef59e1c1e69143f6e274b67b80cc78fa68d03b1f5f8084059a2fe096f0c4
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1318,11 +1319,10 @@ entries:
     version: 2.16.0-4
   - apiVersion: v1
     appVersion: 2.16.0-3
-    created: "2021-11-08T12:58:48.561153+03:00"
+    created: "2022-09-28T17:21:54.087558568Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: a527c0fcb2c71908654865577cb96587c348d49c0101891ac130a294021983dc
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1341,11 +1341,10 @@ entries:
     version: 2.16.0-3
   - apiVersion: v1
     appVersion: 2.16.0-2
-    created: "2021-11-08T12:58:48.559721+03:00"
+    created: "2022-09-28T17:21:54.082914402Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: bb3385eee74c9e6f9723d2680be4c5a6b7592c8082653a39d021a4d0a407a5da
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1364,11 +1363,10 @@ entries:
     version: 2.16.0-2
   - apiVersion: v1
     appVersion: 2.16.0-1
-    created: "2021-11-08T12:58:48.558455+03:00"
+    created: "2022-09-28T17:21:54.077575036Z"
     description: An Wallarm Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: e92fffa36c39107c670a48fd53f70f2dcce352a9e376e7d1995ee0c5714dace9
-    engine: gotpl
     home: https://github.com/wallarm/ingress
     icon: https://wallarm.com/assets/images/logo.svg
     keywords:
@@ -1400,7 +1398,7 @@ entries:
           image: wallarm/ingress-tarantool:4.2.1-1
     apiVersion: v2
     appVersion: 4.2.1
-    created: "2022-09-07T12:46:32.973974024Z"
+    created: "2022-09-28T17:21:54.344275064Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: 7e3a7d2c490e47712abbc52bc3fde2f772397c3c14ca7fd256d409ea497f25ed
@@ -1436,7 +1434,7 @@ entries:
           image: wallarm/ingress-tarantool:4.2.0-1
     apiVersion: v2
     appVersion: 4.2.0
-    created: "2022-09-05T10:33:29.870550025Z"
+    created: "2022-09-28T17:21:54.339762269Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: d5e4783415853177a1296a1b4f8a403364aa095420e5dc28b0ad5bd4cd3631c0
@@ -1472,7 +1470,7 @@ entries:
           image: wallarm/ingress-tarantool:4.2.0-1
     apiVersion: v2
     appVersion: 4.2.0
-    created: "2022-08-30T10:07:28.293815117Z"
+    created: "2022-09-28T17:21:54.334034796Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: 4578b6b68249abe17f3806781d36d767eadfe4a8f746727f814a85826f889201
@@ -1496,7 +1494,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 4.0.5
-    created: "2022-08-29T08:47:17.437035971Z"
+    created: "2022-09-28T17:21:54.329520535Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: 01ffaee7b50d89046e6ef0c9334707fa6527ada41346ad386983ca760c214a93
@@ -1520,7 +1518,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 4.0.5
-    created: "2022-08-29T07:05:37.137008043Z"
+    created: "2022-09-28T17:21:54.325147563Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: f7ec19fb1f29d677928e9975ae40717a44a173df733da8ee02dcaf5a2bf31b38
@@ -1544,7 +1542,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 4.0.5
-    created: "2022-08-11T09:01:57.132521897Z"
+    created: "2022-09-28T17:21:54.320873277Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
     digest: bc3e9a5f431d249f395793652afecee9ae09f71aba8a3f45cb534d8efcfdb8a5
@@ -1566,4 +1564,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2022-09-13T17:00:23.520549078Z"
+generated: "2022-09-28T17:21:54.011494082Z"
