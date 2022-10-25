@@ -126,6 +126,34 @@ entries:
     urls:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.0.tgz
     version: 0.6.0
+  kong:
+  - apiVersion: v2
+    appVersion: "3.0"
+    created: "2022-10-25T12:21:48.694950435Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.15
+    description: The Cloud-Native Ingress and API-management
+    digest: 758cf0e3f47df30d5bf9c4451ad987e226eaf402193272baf055feace683c0ec
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    keywords:
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong
+    sources:
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - https://charts.wallarm.com/kong/kong-4.2.4.tgz
+    version: 4.2.4
   kong-preview:
   - apiVersion: v1
     appVersion: "2.7"
