@@ -1554,6 +1554,16 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-2.16.0-1.tgz
     version: 2.16.0-1
+  wallarm-oob:
+  - apiVersion: v2
+    appVersion: "4.4"
+    created: "2022-12-27T13:03:09.930401024Z"
+    description: Wallarm out of band for Kubernetes
+    digest: d0d847520705ed56aad6ad77fe6e930bf32fbee2506991cc61546815e31a4036
+    name: wallarm-oob
+    urls:
+    - https://charts.wallarm.com/oob-ebpf/wallarm-oob-0.0.1.tgz
+    version: 0.0.1
   wallarm-sidecar:
   - annotations:
       artifacthub.io/images: |
@@ -1807,4 +1817,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2022-12-15T11:53:38.891354754Z"
+generated: "2022-12-27T13:03:09.927819013Z"
