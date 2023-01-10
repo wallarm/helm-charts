@@ -233,6 +233,15 @@ entries:
     version: 4.2.3
   pgbouncer:
   - apiVersion: v1
+    appVersion: 1.3.1
+    created: "2023-01-10T12:00:39.270791144Z"
+    description: A Helm chart installing pgbouncer in kubernetes
+    digest: 8b4c4970ff365e7aa6aab02404ed49ec27928107b67e1d6f289020929d4b63a4
+    name: pgbouncer
+    urls:
+    - https://charts.wallarm.com/pgbouncer/pgbouncer-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v1
     appVersion: 1.2.1
     created: "2022-09-28T17:21:54.055122951Z"
     description: A Helm chart installing pgbouncer in kubernetes
@@ -1817,4 +1826,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2022-12-27T13:03:09.927819013Z"
+generated: "2023-01-10T12:00:39.268677936Z"
