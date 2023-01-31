@@ -151,6 +151,34 @@ entries:
     version: 0.6.0
   kong:
   - apiVersion: v2
+    appVersion: "3.1"
+    created: "2023-01-31T10:38:45.402238239Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: The Cloud-Native Ingress and API-management
+    digest: 610a1c66262d683b1046759b1b740ce1232444820ff11af36562b6b856f7db87
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    keywords:
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong
+    sources:
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    - https://github.com/wallarm/kong-charts/blob/main/charts/kong
+    urls:
+    - https://charts.wallarm.com/kong/kong-4.4.1.tgz
+    version: 4.4.1
+  - apiVersion: v2
     appVersion: 3.0.1
     created: "2022-11-25T08:23:33.928383127Z"
     dependencies:
@@ -1917,4 +1945,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2023-01-30T18:34:47.105054475Z"
+generated: "2023-01-31T10:38:45.391446843Z"
