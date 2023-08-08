@@ -3,9 +3,9 @@ entries:
   api-firewall:
   - apiVersion: v1
     appVersion: 0.6.12
-    created: "2023-08-08T13:31:48.663396068Z"
+    created: "2023-08-08T13:39:12.547998211Z"
     description: Wallarm OpenAPI-based API Firewall
-    digest: f51a1a5f9f2072c33c47842537709d7cef5e417a3065fe8a38a100eed2b7406c
+    digest: ca12d1ab845d52bdcef3171e6ee1919a1df8e84e44b6eab41b054fb41f20e9cd
     home: https://github.com/wallarm/api-firewall
     icon: https://static.wallarm.com/wallarm-logo.svg
     keywords:
@@ -2790,4 +2790,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2023-08-08T13:31:48.660508547Z"
+generated: "2023-08-08T13:39:12.546458617Z"
