@@ -2,6 +2,29 @@ apiVersion: v1
 entries:
   api-firewall:
   - apiVersion: v1
+    appVersion: 0.6.13
+    created: "2023-09-08T16:47:22.187229346Z"
+    description: Wallarm OpenAPI-based API Firewall
+    digest: a10a22befa1b991e329d91d485b894235f6c4901e53a342dfe10984aafdaef81
+    home: https://github.com/wallarm/api-firewall
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - wallarm
+    - ingress
+    - middleware
+    - firewall
+    - waf
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: api-firewall
+    sources:
+    - https://github.com/wallarm/api-firewall
+    urls:
+    - https://charts.wallarm.com/api-firewall/api-firewall-0.6.13.tgz
+    version: 0.6.13
+  - apiVersion: v1
     appVersion: 0.6.12
     created: "2023-08-08T18:25:38.780978206Z"
     description: Wallarm OpenAPI-based API Firewall
@@ -2870,4 +2893,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2023-09-07T17:46:50.534249394Z"
+generated: "2023-09-08T16:47:22.184361115Z"
