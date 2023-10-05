@@ -2379,6 +2379,15 @@ entries:
   wallarm-oob:
   - apiVersion: v2
     appVersion: 4.6.2
+    created: "2023-10-05T11:57:13.131675773Z"
+    description: Wallarm out of band for Kubernetes based on eBPF
+    digest: 9b22617ff59b858ad7506fd05073f0ff58087a86ac3faf44358ec430e354f475
+    name: wallarm-oob
+    urls:
+    - https://charts.wallarm.com/wallarm-oob/wallarm-oob-0.10.5.tgz
+    version: 0.10.5
+  - apiVersion: v2
+    appVersion: 4.6.2
     created: "2023-10-04T14:07:57.22934859Z"
     description: Wallarm out of band for Kubernetes based on eBPF
     digest: 36fdaa7a50c978e3ac70132aaafca3c74f4028a9ef99a6b62facc44d9d882831
@@ -3071,4 +3080,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2023-10-05T04:56:12.048928689Z"
+generated: "2023-10-05T11:57:13.127239206Z"
