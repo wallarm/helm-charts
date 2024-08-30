@@ -3342,6 +3342,16 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-ingress-rc/wallarm-ingress-rc-4.6.6.tgz
     version: 4.6.6
+  wallarm-node-next:
+  - apiVersion: v2
+    appVersion: 0.4.1
+    created: "2024-08-30T13:27:15.399295021Z"
+    description: Helm chart for Wallarm node next
+    digest: c62410e2c4ebd74d5b06387c89479730d51c3657b3c950af0470663d06c8bb97
+    name: wallarm-node-next
+    urls:
+    - https://charts.wallarm.com/wallarm-node-next/wallarm-node-next-0.4.1.tgz
+    version: 0.4.1
   wallarm-oob:
   - apiVersion: v2
     appVersion: 4.10.4
@@ -4641,4 +4651,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2024-08-21T10:20:09.860863503Z"
+generated: "2024-08-30T13:27:15.39599547Z"
