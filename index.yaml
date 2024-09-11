@@ -3368,6 +3368,15 @@ entries:
   wallarm-node-next:
   - apiVersion: v2
     appVersion: 0.4.3
+    created: "2024-09-11T11:05:51.113353641Z"
+    description: Helm chart for Wallarm node next
+    digest: c75b7b1a6e624677e3813fde3e3ac70a22fdbc9a556e5b78f7a6f880633d8949
+    name: wallarm-node-next
+    urls:
+    - https://charts.wallarm.com/wallarm-node-next/wallarm-node-next-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v2
+    appVersion: 0.4.3
     created: "2024-09-10T09:51:23.267946865Z"
     description: Helm chart for Wallarm node next
     digest: 10c506806920dddc3be0d9fab89995a566ceed703ad7672bd5167570e4ab4a18
@@ -4683,4 +4692,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2024-09-10T09:51:23.265846607Z"
+generated: "2024-09-11T11:05:51.110604074Z"
