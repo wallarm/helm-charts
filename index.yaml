@@ -4453,6 +4453,38 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: sidecar
+          image: wallarm/sidecar:6.0.0-rc3
+        - name: sidecar-controller
+          image: wallarm/sidecar-controller:1.6.1
+        - name: node-helpers
+          image: wallarm/node-helpers:6.0.0-rc3
+    apiVersion: v2
+    appVersion: 6.0.0-rc3
+    created: "2025-03-03T23:22:55.601065736Z"
+    description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
+      NGINX with Wallarm module and helper services.
+    digest: d93b719c613d35bbe82438b164c7ea1d29e9ddd3f2e067627cd89a068e4a7895
+    home: https://github.com/wallarm/sidecar
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - sidecar
+    - nginx
+    - firewall
+    - wallarm
+    kubeVersion: '>=1.19.16-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-sidecar
+    sources:
+    - https://github.com/wallarm/sidecar
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-6.0.0-rc3.tgz
+    version: 6.0.0-rc3
+  - annotations:
+      artifacthub.io/images: |
+        - name: sidecar
           image: wallarm/sidecar:5.3.8
         - name: sidecar-controller
           image: wallarm/sidecar-controller:1.6.1
@@ -5806,4 +5838,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2025-02-27T19:27:15.24340391Z"
+generated: "2025-03-03T23:22:55.598166198Z"
