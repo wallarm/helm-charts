@@ -4515,10 +4515,10 @@ entries:
           image: wallarm/node-helpers:5.3.10
     apiVersion: v2
     appVersion: 5.3.10
-    created: "2025-03-10T20:11:40.305371222Z"
+    created: "2025-03-10T20:20:13.102116933Z"
     description: Sidecar controller for Kubernetes. Injects sidecar proxy based on
       NGINX with Wallarm module and helper services.
-    digest: 9677c813bca91eebe079f9515a46751806117462dabcb96ee78b2847215e87fa
+    digest: 105b758b9cf9a70e64285a2ee2344a549280af5e9018f63b43db722ed529c508
     home: https://github.com/wallarm/sidecar
     icon: https://static.wallarm.com/wallarm-logo.svg
     keywords:
@@ -5893,4 +5893,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2025-03-10T20:11:40.302865789Z"
+generated: "2025-03-10T20:20:13.099543255Z"
