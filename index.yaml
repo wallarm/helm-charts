@@ -5630,6 +5630,15 @@ entries:
     - https://charts.wallarm.com/wallarm-node-native/wallarm-node-native-0.22.0.tgz
     version: 0.22.0
   - apiVersion: v2
+    appVersion: 0.22.0-reworked-tcp-reassembler-1
+    created: "2025-12-26T13:23:10.311264223Z"
+    description: Helm chart for Wallarm Native Node
+    digest: 74b724c927138d6891a2c3f8c340c66be8386fb22f8cf1fb979da81b6b64328f
+    name: wallarm-node-native
+    urls:
+    - https://charts.wallarm.com/wallarm-node-native/wallarm-node-native-0.22.0-reworked-tcp-reassembler-1.tgz
+    version: 0.22.0-reworked-tcp-reassembler-1
+  - apiVersion: v2
     appVersion: 0.21.0
     created: "2025-12-17T08:47:03.58164234Z"
     description: Helm chart for Wallarm Native Node
@@ -8560,4 +8569,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2025-12-26T09:13:37.19268624Z"
+generated: "2025-12-26T13:23:10.307070213Z"
