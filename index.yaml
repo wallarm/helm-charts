@@ -1201,6 +1201,30 @@ entries:
     urls:
     - https://charts.wallarm.com/sysbindings/sysbindings-0.9.3.tgz
     version: 0.9.3
+  wallarm-api-gateway:
+  - apiVersion: v2
+    appVersion: 0.1.0-dev
+    created: "2026-01-07T11:18:25.391489453Z"
+    description: A high-performance Rust-based API gateway with multi-language policy
+      engine support
+    digest: 7575ca1650a5bf8b1f8b85dac9223b4944e12469638ca618800eb4b1dfea795c
+    home: https://github.com/wallarm/wallarm-api-gateway
+    keywords:
+    - api-gateway
+    - proxy
+    - rate-limiting
+    - policy-engine
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm
+    name: wallarm-api-gateway
+    sources:
+    - https://github.com/wallarm/wallarm-api-gateway
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-api-gateway/wallarm-api-gateway-0.1.0-dev.tgz
+    version: 0.1.0-dev
   wallarm-ingress:
   - apiVersion: v2
     appVersion: 6.8.1
@@ -8592,4 +8616,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2025-12-26T14:20:29.527963352Z"
+generated: "2026-01-07T11:18:25.390126465Z"
