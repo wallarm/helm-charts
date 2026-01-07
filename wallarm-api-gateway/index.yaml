@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  wallarm-api-gateway:
+  - apiVersion: v2
+    appVersion: 0.1.0-dev
+    created: "2026-01-07T10:57:09.299049305Z"
+    description: A high-performance Rust-based API gateway with multi-language policy
+      engine support
+    digest: 209a336ecd841e1874c52ffa63f9dcd5e0d7853d8a55be4e77e2cb40d2d98a1e
+    home: https://github.com/wallarm/wallarm-api-gateway
+    keywords:
+    - api-gateway
+    - proxy
+    - rate-limiting
+    - policy-engine
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm
+    name: wallarm-api-gateway
+    sources:
+    - https://github.com/wallarm/wallarm-api-gateway
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-api-gateway/wallarm-api-gateway-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-01-07T10:57:09.29709865Z"
