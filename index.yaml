@@ -793,6 +793,30 @@ entries:
     urls:
     - https://charts.wallarm.com/api-firewall/api-firewall-0.6.0.tgz
     version: 0.6.0
+  api-gateway:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-08T10:10:22.472608203Z"
+    description: A high-performance Rust-based API gateway with multi-language policy
+      engine support
+    digest: c27d84c37b693bc8a8edfebccfddde8da598d11ae1da7b24a1d6168a04de6230
+    home: https://github.com/wallarm/wallarm-api-gateway
+    keywords:
+    - api-gateway
+    - proxy
+    - rate-limiting
+    - policy-engine
+    - wallarm
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm
+    name: api-gateway
+    sources:
+    - https://github.com/wallarm/wallarm-api-gateway
+    type: application
+    urls:
+    - https://charts.wallarm.com/api-gateway/api-gateway-0.1.0.tgz
+    version: 0.1.0
   kong:
   - apiVersion: v2
     appVersion: "3.1"
@@ -8666,4 +8690,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-01-08T00:05:28.724252088Z"
+generated: "2026-01-08T10:10:22.469977415Z"
