@@ -843,15 +843,9 @@ entries:
   gateway-control-plane:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-02-11T20:46:12.265656958Z"
-    dependencies:
-    - alias: timescaledb
-      condition: timescaledb.enabled
-      name: timescaledb-single
-      repository: https://charts.timescale.com
-      version: 0.33.x
+    created: "2026-02-11T21:25:47.332549817Z"
     description: Centralized management service for Wallarm API Gateway
-    digest: 3d299028ea64d915d23357871a3b058b7c854336738fa0070821c35753507682
+    digest: 2a176de3644fd58a8fa68ada5a9335801bae1ac5c7e3c222c3186be9b2bd0db1
     home: https://github.com/wallarm/wallarm-gateway-control-plane
     keywords:
     - api-gateway
@@ -9074,4 +9068,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-02-11T20:46:12.261938006Z"
+generated: "2026-02-11T21:25:47.330679429Z"
