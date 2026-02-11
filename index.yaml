@@ -842,15 +842,15 @@ entries:
     version: 0.1.0
   gateway-control-plane:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2026-02-11T10:09:45.570550997Z"
+    appVersion: 0.2.0
+    created: "2026-02-11T10:17:58.238152336Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 16.x.x
     description: Centralized management service for Wallarm API Gateway
-    digest: abe082ff0d8944f18df95b757c24428b9ed8b93585977ac369416e95d278902a
+    digest: 79ba6d7cfd059b99e77db74b3d05f108e0ce4de23c1694ab012f96b7b580865d
     home: https://github.com/wallarm/wallarm-gateway-control-plane
     keywords:
     - api-gateway
@@ -9073,4 +9073,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-02-11T10:09:45.562948732Z"
+generated: "2026-02-11T10:17:58.230396484Z"
