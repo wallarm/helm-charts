@@ -843,9 +843,9 @@ entries:
   gateway-control-plane:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-02-12T11:24:58.056678799Z"
+    created: "2026-02-12T12:05:40.014705547Z"
     description: Centralized management service for Wallarm API Gateway
-    digest: edfb47ef42473b343aab8fe41af8e68ed6dec97d42e7a1f6560064779057b69a
+    digest: e9299d301dbd2dd6b8b67000f7b3626f8175892c3e34cbbbb7f76c54d465015d
     home: https://github.com/wallarm/wallarm-gateway-control-plane
     keywords:
     - api-gateway
@@ -9068,4 +9068,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-02-12T12:04:55.997350894Z"
+generated: "2026-02-12T12:05:40.013243367Z"
