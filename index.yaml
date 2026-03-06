@@ -3,9 +3,9 @@ entries:
   aih-scanner:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-03-06T10:30:44.862347332Z"
+    created: "2026-03-06T10:31:13.941719732Z"
     description: HIGGS Scanner — Hypervisor Inspection & GenerativeAI Guarding Scanner
-    digest: b871ef340a6ecd26af2e56ae8f3a54a88d5b38e9802ee3d5347ca09a31ba4a88
+    digest: 5e8c92da67a2824767b6d19f6f71c63c8baa15a407ac4c9021bc12b27eab6082
     home: https://gitlab.com/wallarm/hypervisor/higgs-scanner
     keywords:
     - security
@@ -9171,4 +9171,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-03-06T10:30:44.861565222Z"
+generated: "2026-03-06T10:31:13.940885805Z"
