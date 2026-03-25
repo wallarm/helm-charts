@@ -1370,6 +1370,29 @@ entries:
     version: 0.1.0-dev
   wallarm-ingress:
   - apiVersion: v2
+    appVersion: 6.10.3
+    created: "2026-03-25T10:22:16.147809515Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer with Wallarm module (new)
+    digest: 414ba3ac4c8f651c10fcc93c230b3174f1b01f7b58ac6030ad6bc353a8105e0f
+    home: https://www.wallarm.com
+    icon: https://static.wallarm.com/wallarm-logo.svg
+    keywords:
+    - ingress
+    - nginx
+    - wallarm
+    kubeVersion: '>= 1.25.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm Support Team
+    name: wallarm-ingress
+    sources:
+    - https://github.com/wallarm/ingress-nextgen
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-ingress/wallarm-ingress-7.0.0-rc4.tgz
+    version: 7.0.0-rc4
+  - apiVersion: v2
     appVersion: 6.10.0
     created: "2026-02-11T10:01:04.030292876Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
@@ -9444,4 +9467,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-03-25T09:56:26.359018501Z"
+generated: "2026-03-25T10:22:16.140476187Z"
