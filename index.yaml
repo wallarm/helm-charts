@@ -1756,10 +1756,10 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 6.12.2-thy-masking
-    created: "2026-05-26T13:40:45.038593236Z"
+    created: "2026-05-26T17:51:17.783782789Z"
     description: Ingress controller for Kubernetes using NGINX as a reverse proxy
       and load balancer with Wallarm module
-    digest: d616ad5ca0f9143314f411822d1cb8bb24cf336bace052b4e07c6e78460d6be4
+    digest: c4092ef4da8c7f8c4fdd3cafcb0fba6b3853839adc8c437f114abceb7abdd974
     home: https://github.com/wallarm/ingress
     icon: https://static.wallarm.com/wallarm-logo.svg
     keywords:
@@ -10318,4 +10318,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-05-26T13:40:45.028860364Z"
+generated: "2026-05-26T17:51:17.709949434Z"
