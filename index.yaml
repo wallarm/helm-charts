@@ -1644,6 +1644,61 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-api-gateway/wallarm-api-gateway-0.1.0-dev.tgz
     version: 0.1.0-dev
+  wallarm-gateway:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: removed
+          description: "BREAKING: static data-plane mode removed. Chart installs only the Gateway-API controller; data planes are provisioned per Gateway from WallarmGatewayParameters."
+        - kind: removed
+          description: "BREAKING: controller.* values hoisted to top level. controller.image -> image; controller.replicas -> replicas; controller.gatewayClassName -> gatewayClassName; controller.controllerName -> controllerName; controller.dataplaneImage -> dataplaneImage; etc."
+        - kind: removed
+          description: "BREAKING: values keys removed: controller.enabled, mode, controlPlane.*, gateway.*, cluster.*, service.*, headlessService.*, ingress.*, persistence.*, autoscaling.*, podDisruptionBudget.*, replicaCount, strategy, revisionHistoryLimit, probes.*, extraEnv, envFrom, extraVolumes, extraVolumeMounts, initContainers, sidecars, policies.*, serviceAccount.*, automountServiceAccountToken, podSecurityContext, securityContext, terminationGracePeriodSeconds, lifecycle, priorityClassName, dnsConfig, dnsPolicy, hostAliases, gatewaySecret.value, gatewaySecret.oldValue, gatewaySecret.existingSecretOldKey."
+        - kind: removed
+          description: "BREAKING: data-plane templates removed: Deployment, Service, headless Service, ConfigMap, PVC, HPA, PDB, Ingress, ServiceAccount, Helm-managed Secret."
+        - kind: removed
+          description: "BREAKING: helm test pod removed. Gateway API conformance suite (make test-k8s-gwapi-conformance) is the contract test."
+        - kind: added
+          description: "observability.accessLog top-level value: cluster-wide default for the provisioned data plane's observability.access_log (overridable per-Gateway via WallarmGatewayParameters)."
+        - kind: changed
+          description: "Controller image bumped to wallarm/gateway-controller:0.4.0; dataplane image fallback is wallarm/gateway:0.4.0 (was wallarm/gateway-controller:0.3.0 — bug fix)."
+        - kind: added
+          description: "Controller pod podAnnotations/podLabels wired through; seccompProfile RuntimeDefault added to controller pod and container security contexts."
+      artifacthub.io/images: |
+        - name: wallarm-gateway-controller
+          image: wallarm/gateway-controller:0.4.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Source
+          url: https://github.com/wallarm/wallarm-api-gateway
+        - name: Issues
+          url: https://github.com/wallarm/wallarm-api-gateway/issues
+      category: Networking
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2026-06-04T20:29:06.012969858Z"
+    description: A high-performance Rust-based API gateway with multi-language policy
+      engine support.
+    digest: ab0ea33586a8e40f74ebfb635744160071915ed800bbf54f5c76b7937d735d61
+    home: https://github.com/wallarm/wallarm-api-gateway
+    icon: https://wallarm.com/img/wallarm-logo.png
+    keywords:
+    - api-gateway
+    - proxy
+    - rate-limiting
+    - policy-engine
+    - wallarm
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: support@wallarm.com
+      name: Wallarm
+    name: wallarm-gateway
+    sources:
+    - https://github.com/wallarm/wallarm-api-gateway
+    type: application
+    urls:
+    - https://charts.wallarm.com/wallarm-gateway/wallarm-gateway-0.4.0.tgz
+    version: 0.4.0
   wallarm-gateway-control-plane:
   - apiVersion: v2
     appVersion: 0.1.0-dev
@@ -10469,4 +10524,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-06-04T20:15:13.456633256Z"
+generated: "2026-06-04T20:29:06.010223403Z"
