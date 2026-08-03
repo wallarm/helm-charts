@@ -3,6 +3,26 @@ entries:
   aih-scanner:
   - apiVersion: v2
     appVersion: 2.4.7
+    created: "2026-08-03T14:25:13.386663447Z"
+    description: HIGGS Scanner — AI workload inspection with shadow detection
+    digest: 9bebec1211e74a908f7cb3d7a0bcd3a5cd5da26bbfb25e9d688345e9cdaa030d
+    home: https://gitlab.com/wallarm/hypervisor/higgs-scanner
+    keywords:
+    - security
+    - scanner
+    - ai-hypervisor
+    - wallarm
+    maintainers:
+    - name: Wallarm AI Hypervisor Team
+    name: aih-scanner
+    sources:
+    - https://gitlab.com/wallarm/hypervisor/higgs-scanner
+    type: application
+    urls:
+    - https://charts.wallarm.com/aih-scanner/aih-scanner-2.4.10.tgz
+    version: 2.4.10
+  - apiVersion: v2
+    appVersion: 2.4.7
     created: "2026-08-03T13:09:10.821433565Z"
     description: HIGGS Scanner — AI workload inspection with shadow detection
     digest: 34ee4e91678673738c6b9385a8b731192d775d02364d1bd0330c2825d4a2cd17
@@ -11529,4 +11549,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-08-03T13:09:10.819992175Z"
+generated: "2026-08-03T14:25:13.384598674Z"
