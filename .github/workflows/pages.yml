@@ -1,0 +1,49 @@
+# Deploy the chart repository (wallarm/helm-charts) to GitHub Pages.
+#
+# Copied into that repo by .gitlab/chart-publish.sh on every release, so the
+# repo self-heals rather than depending on someone remembering to add it.
+#
+# Why it exists: the deprecated "legacy" Pages builder failed EVERY build on
+# that repo from 2026-08-17 — first erroring with a bare "Page build failed",
+# then hanging in "building" indefinitely. Pages keeps serving the last good
+# build when one fails, so charts.wallarm.com silently froze on its 2026-08-12
+# content while charts kept landing in git. Nothing errored where an operator
+# would look: `helm search repo` simply reported an old version as newest and
+# installed it.
+#
+# A .nojekyll marker was added first and was necessary but not sufficient —
+# three builds hung with it present, and the repo is ~23 MB against a 1 GB
+# limit, so neither Jekyll content nor size explains the failure.
+#
+# There is nothing to build here: the repo is .tgz blobs plus index.yaml. This
+# uploads it verbatim, which removes the failing step entirely.
+name: Deploy charts to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two publishes race; the newest push wins.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
