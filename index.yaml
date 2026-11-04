@@ -3,10 +3,10 @@ entries:
   aih-scanner:
   - apiVersion: v2
     appVersion: 2.22.0
-    created: "2026-11-04T14:43:36.77870933Z"
+    created: "2026-11-04T15:18:42.036108447Z"
     description: Wallarm AI Hypervisor scanner — AI workload inspection with shadow
       detection
-    digest: 9f7b84ede352a613bd8b3bc128585decbfaf8fbe532642ceb07c901a9e964d26
+    digest: 985cf2374a0bf2f5bb5d21f44179b356da79c9444a509dfd1522557be85fd06e
     home: https://docs.wallarm.com/ai-hypervisor/deploy/
     keywords:
     - security
@@ -12877,4 +12877,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-11-04T14:43:36.776398047Z"
+generated: "2026-11-04T15:18:42.033596496Z"
