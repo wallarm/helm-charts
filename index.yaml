@@ -9427,6 +9427,15 @@ entries:
     version: 4.6.6
   wallarm-node-native:
   - apiVersion: v2
+    appVersion: 0.25.13
+    created: "2026-11-24T05:34:32.27435544Z"
+    description: Helm chart for Wallarm Native Node
+    digest: 1c1a55670a5e9213a9d892a1e5897984f7d5819858068774e50fdb9edcbfb23e
+    name: wallarm-node-native
+    urls:
+    - https://charts.wallarm.com/wallarm-node-native/wallarm-node-native-0.25.13.tgz
+    version: 0.25.13
+  - apiVersion: v2
     appVersion: 0.25.12
     created: "2026-11-16T13:48:08.204087779Z"
     description: Helm chart for Wallarm Native Node
@@ -13533,4 +13542,4 @@ entries:
     urls:
     - https://charts.wallarm.com/wallarm-sidecar/wallarm-sidecar-1.0.1.tgz
     version: 1.0.1
-generated: "2026-11-23T00:05:09.298824944Z"
+generated: "2026-11-24T05:34:32.202871602Z"
